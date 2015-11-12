@@ -130,3 +130,9 @@ WIFI_DRIVER_FW_PATH_AP := "/vendor/firmware/fw_bcmdhd_apsta.bin"
 EXTENDED_FONT_FOOTPRINT := true
 
 -include vendor/huawei/angler/BoardConfigVendor.mk
+
+export CLANG_O3 := true
+export STRICT_ALIASING := true
+export GRAPHITE_OPTS := true
+export USE_O3_OPTIMIZATIONS := true
+export ENABLE_GCCONLY := true
