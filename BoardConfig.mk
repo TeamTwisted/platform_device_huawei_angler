@@ -136,3 +136,9 @@ export STRICT_ALIASING := true
 export GRAPHITE_OPTS := true
 export USE_O3_OPTIMIZATIONS := true
 export ENABLE_GCCONLY := true
+
+# Inline kernel building
+TARGET_GCC_VERSION_ARM64 := 5.3-kernel
+TARGET_KERNEL_SOURCE := kernel/huawei/angler
+TARGET_KERNEL_CONFIG := kylo_defconfig
+BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
