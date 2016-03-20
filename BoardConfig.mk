@@ -125,13 +125,6 @@ EXTENDED_FONT_FOOTPRINT := true
 
 -include vendor/huawei/angler/BoardConfigVendor.mk
 
-export CLANG_O3 := true
-export STRICT_ALIASING := true
-export GRAPHITE_OPTS := true
-export USE_O3_OPTIMIZATIONS := true
-export ENABLE_GCCONLY := true
-export CORTEX_TUNINGS := true
-
 # Inline kernel building
 TARGET_GCC_VERSION_ARM64 := 5.3-kernel
 TARGET_KERNEL_SOURCE := kernel/huawei/angler
